@@ -39,11 +39,11 @@ interface QuizSet {
 
 // Sample Data
 const AUDIO_SAMPLES = [
-  { id: 's1', answer: 'Stereo' as AudioFormat,  audioUrl: encodeURI('1 stereo - hypnotic.mp3') },
-  { id: 's2', answer: 'Spatial' as AudioFormat, audioUrl: encodeURI('2 atmos - hot.wav') },
-  { id: 's3', answer: 'Spatial' as AudioFormat, audioUrl: encodeURI('3 atmos - ola.wav') },
-  { id: 's4', answer: 'Stereo' as AudioFormat, audioUrl: encodeURI('4 stereo - 10 Unite.mp3') },
-  { id: 's5', answer: 'Spatial' as AudioFormat, audioUrl: encodeURI('5 atmos - never satisfied.wav') },
+  { id: 's1', answer: 'Stereo' as AudioFormat,  audioUrl: 'https://drive.google.com/file/d/1qWZ0EnNZcociSDaIrjIUgUSxOzpxumiq/view?usp=sharing'},
+  { id: 's2', answer: 'Spatial' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/1_CimIW0I96KyMywL1cjcIPF1EvWWwrk4/view?usp=drive_link' },
+  { id: 's3', answer: 'Spatial' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/143OeDjj3p8h0m8xJ17cPKQTQx5GV5Ip8/view?usp=drive_link' },
+  { id: 's4', answer: 'Stereo' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/1So709HBGsbp4BHUDDuPzNt7CJ-K2cMfe/view?usp=sharing' },
+  { id: 's5', answer: 'Spatial' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/17IsMRcGSry1OyHAtFJ56YgydVgYUR0WE/view?usp=sharing' },
 ];
 
 function shuffleArray<T>(array: T[]): T[] {
