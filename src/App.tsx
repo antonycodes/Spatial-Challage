@@ -50,8 +50,10 @@ const AUDIO_SAMPLES = [
   },
   { 
     id: 's3', 
-    answer: 'Spatial' as AudioFormat, 
-    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641939/3_atmos_-_ola_b84r2u.wav' 
+    answer: 'Spatial', 
+    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641939/3_atmos_-_ola_b84r2u.wav', 
+    startTime: 30, 
+    endTime: 60 
   },
   { 
     id: 's4', 
