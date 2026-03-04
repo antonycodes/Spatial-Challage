@@ -136,8 +136,8 @@ export default function App() {
     startTimer();
   };
 
-  const FADE_IN_DURATION = 3000; // 3 giây
-const FADE_OUT_DURATION = 1000; // 1 giây
+  const FADE_IN_DURATION = 1000; // 
+const FADE_OUT_DURATION = 1000; // 
 const INTERVAL = 50; // Bước nhảy mỗi 50ms
 
 const toggleAudio = () => {
