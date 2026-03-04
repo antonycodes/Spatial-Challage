@@ -38,11 +38,31 @@ interface QuizSet {
 }
 
 const AUDIO_SAMPLES = [
-  { id: 's1', answer: 'Stereo', audioUrl: 'https://drive.google.com/uc?export=view&id=1qWZ0EnNZcociSDaIrjIUgUSxOzpxumiq' },
-  { id: 's2', answer: 'Spatial', audioUrl: 'https://drive.google.com/uc?export=view&id=1_CimIW0I96KyMywL1cjcIPF1EvWWwrk4' },
-  { id: 's3', answer: 'Spatial', audioUrl: 'https://drive.google.com/uc?export=view&id=143OeDjj3p8h0m8xJ17cPKQTQx5GV5Ip8' },
-  { id: 's4', answer: 'Stereo', audioUrl: 'https://drive.google.com/uc?export=view&id=1So709HBGsbp4BHUDDuPzNt7CJ-K2cMfe' },
-  { id: 's5', answer: 'Spatial', audioUrl: 'https://drive.google.com/uc?export=view&id=17IsMRcGSry1OyHAtFJ56YgydVgYUR0WE' },
+  { 
+    id: 's1', 
+    answer: 'Stereo' as AudioFormat, 
+    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641939/1_stereo_-_hypnotic_qf3vqu.mp3' 
+  },
+  { 
+    id: 's2', 
+    answer: 'Spatial' as AudioFormat, 
+    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641952/2_atmos_-_hot_ikzsky.wav' 
+  },
+  { 
+    id: 's3', 
+    answer: 'Spatial' as AudioFormat, 
+    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641939/3_atmos_-_ola_b84r2u.wav' 
+  },
+  { 
+    id: 's4', 
+    answer: 'Stereo' as AudioFormat, 
+    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641936/4_stereo_-_10_Unite_otrccy.mp3' 
+  },
+  { 
+    id: 's5', 
+    answer: 'Spatial' as AudioFormat, 
+    audioUrl: 'https://res.cloudinary.com/dxikjdqqn/video/upload/v1772641938/5_atmos_-_never_satisfied_dmtar5.wav' 
+  },
 ];
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
