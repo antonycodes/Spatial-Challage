@@ -37,15 +37,13 @@ interface QuizSet {
   questions: Question[];
 }
 
-// Sample Data
 const AUDIO_SAMPLES = [
-  { id: 's1', answer: 'Stereo' as AudioFormat,  audioUrl: 'https://drive.google.com/file/d/1qWZ0EnNZcociSDaIrjIUgUSxOzpxumiq/view?usp=sharing'},
-  { id: 's2', answer: 'Spatial' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/1_CimIW0I96KyMywL1cjcIPF1EvWWwrk4/view?usp=drive_link' },
-  { id: 's3', answer: 'Spatial' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/143OeDjj3p8h0m8xJ17cPKQTQx5GV5Ip8/view?usp=drive_link' },
-  { id: 's4', answer: 'Stereo' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/1So709HBGsbp4BHUDDuPzNt7CJ-K2cMfe/view?usp=sharing' },
-  { id: 's5', answer: 'Spatial' as AudioFormat, audioUrl: 'https://drive.google.com/file/d/17IsMRcGSry1OyHAtFJ56YgydVgYUR0WE/view?usp=sharing' },
+  { id: 's1', answer: 'Stereo', audioUrl: 'https://drive.google.com/uc?export=view&id=1qWZ0EnNZcociSDaIrjIUgUSxOzpxumiq' },
+  { id: 's2', answer: 'Spatial', audioUrl: 'https://drive.google.com/uc?export=view&id=1_CimIW0I96KyMywL1cjcIPF1EvWWwrk4' },
+  { id: 's3', answer: 'Spatial', audioUrl: 'https://drive.google.com/uc?export=view&id=143OeDjj3p8h0m8xJ17cPKQTQx5GV5Ip8' },
+  { id: 's4', answer: 'Stereo', audioUrl: 'https://drive.google.com/uc?export=view&id=1So709HBGsbp4BHUDDuPzNt7CJ-K2cMfe' },
+  { id: 's5', answer: 'Spatial', audioUrl: 'https://drive.google.com/uc?export=view&id=17IsMRcGSry1OyHAtFJ56YgydVgYUR0WE' },
 ];
-
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
